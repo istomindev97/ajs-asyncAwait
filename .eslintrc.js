@@ -7,6 +7,7 @@ module.exports = {
   },
   extends: 'airbnb-base', // Airbnb JavaScript Style
   rules: {
-    "eslint.quiet": true,
-  }
+    'no-console': 'off',
+    'no-plusplus': 'off',
+  },
 };
